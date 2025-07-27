@@ -57,14 +57,14 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
-  transition: all;
+  transition: opacity 0.5s;
   display: flex;
   align-items: center;
 }
 
 .footer__content-link:hover {
-  color: #c1c1c1;
-}
+  opacity: 70%;
+;}
 
 .footer__social-icon {
   width: 16px;
